@@ -9,7 +9,7 @@ args = parts[1:]
 
 text = " ".join(args)
 
-if command == "echo":
+if command == "say":
     print(text)
 else:
     print("Unknown command:", command)
